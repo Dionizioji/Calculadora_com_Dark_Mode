@@ -1,0 +1,59 @@
+:root{
+    --backgroundcolordark: #4a235a; 
+    --backgroundcolorlight: #e8daef;
+    --buttondark: #e8daef; 
+    --buttonlight: #4a235a;
+    --fontcolordark: #e8daef; 
+  }
+  
+  body{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    margin: 2px;
+    padding: 2px;
+  }
+  
+  #principal{
+    flex-wrap: wrap;
+    color: var(--fontcolordark);
+    border-radius: 10px;
+    height: 300px;
+    width: 300px;
+    justify-content: center;
+    background-color: var(--backgroundcolordark);
+    padding: 1em;
+  }
+
+  .painel{ 
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1em;
+  }
+
+  #buttons{
+    width: auto;
+    height: auto;
+    display: grid;
+    margin: 5px;
+    padding: 4px;
+    grid-template-columns: auto auto auto auto;
+  }
+
+  .calcButtons{
+    margin: 2px;
+    padding: 3px;
+    width: 100%;
+    height: 100%;
+  }
+
+ #copy{ 
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1em;
+  }
+
+  
+
